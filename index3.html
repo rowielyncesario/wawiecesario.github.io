@@ -1,0 +1,171 @@
+
+
+<html>
+<head>
+<title> Rowielyn U. Cesario </title>
+<style type= "text/css">
+	body {
+				background-image: url("images/gif.gif");
+				color:black ;
+				padding: 20px;}
+
+	li {
+		display: inline;
+		margin-right: 20 px;
+		border-bottom: 1px solid;}
+{
+			font-family: Georgia, "Times New Roman", serif;
+				color: #665544;}
+			img.align-center {
+				display: block;
+				margin: 0px auto;}
+			img.large {
+				width: 500px;
+				height: 500px;}
+#menubar
+{ width: 898px;
+  height: 52px;
+  padding: 5;
+  background:  #FFA9AA    ;
+  text-align:center;} 
+
+ul#menu, ul#menu li
+{ 
+  margin: 0; 
+  padding: 2;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% arial, sans-serif;
+  height: 15px;
+  margin: 10px 0 0 10px;
+  text-align: center;
+  color: #070707;
+  text-transform: uppercase;
+  text-decoration: none;
+  } 
+#Carousel1 .frame
+	     {
+ 	     width: 991px;
+             display: inline-block;
+             float: left;
+             height: 454px;
+	     }
+        #wb_Carousel1 .pagination
+	     {
+  	     bottom: 0;
+   	     left: 0;
+             position: absolute;
+             text-align: center;
+             vertical-align: middle;
+             width: 991px;
+             z-index: 999;
+             }
+         #wb_Carousel1 .pagination img
+             {
+             border-style: none;
+             padding: 12px 12px 12px 12px;
+             }
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFA9AA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/wb.carousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+   var Carousel1Opts =
+   {
+      delay: 3000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'forward',
+      direction: '',
+      pagination: true,
+      pagination_img_default: 'images/page_default.png',
+      pagination_img_active: 'images/page_active.png',
+      start: 0,
+      width: 600
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carousel('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carousel('next');
+   });
+});
+</script>
+</style>
+<body>
+
+<center><img src="images/WawieLogo.jpg" alt="WawieLogo" style="width: 250; height:250;"> </center> <br>
+<center>
+     <div id="menubar">
+        <ul id="menu"><br>
+	 <li class="selected"> <a href="./index.html"><b>Home</b></a></li>
+          <li class="selected"> <a href="./index1.html"><b>About Me</b></a></span></li>
+          <li class="selected"> <a href="./index2.html"><b>Gallery</b></a></span></li>
+	  <li class="dropdown"><a href="index3.html"><b>Explore</b></a>
+  		<div class="dropdown-content">
+    		<a href="index4.html">Beauty</a>
+    		<a href="index5.html">Fashion</a>
+    		<a href="index6.html">Favorites</a>
+		</li>
+		</li>
+           <li class="selected"> <a href="./index7.html"><b>Contact</b></a></li>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+
+
+<body>
+<br> <br> <br> <br><br>
+<center> 
+  <img src="images/explore.jpg" class="large" alt="explore"/> 
+</body>
+</html>
+
